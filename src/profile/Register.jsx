@@ -59,6 +59,7 @@ const Register = () => {
     }
     const handleClickRegister = async (event) => {
         event.preventDefault();
+        console.log("`URL del backend:", `${import.meta.env.VITE_BACKEND_URL}/usuario/register`)
 
         axios.post(`${import.meta.env.VITE_BACKEND_URL}/usuario/register`, {
             nombre: username,
