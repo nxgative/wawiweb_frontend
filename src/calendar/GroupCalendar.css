@@ -1,0 +1,25 @@
+
+.MisCalendarios {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+  
+.contenido-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.volver-link:hover {
+    background-color: #e4daed; /* Cambia el color de fondo al pasar el mouse sobre el enlace */
+    color: #fff; /* Cambia el color del texto al pasar el mouse sobre el enlace */
+  }
+
+.popoverstyle{
+      z-index: 99999;
+      color: blue;
+  }
+

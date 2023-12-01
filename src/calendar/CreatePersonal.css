@@ -1,0 +1,14 @@
+
+  
+.imagen-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+}
+
+
+.volver-link:hover {
+    background-color: #e4daed; /* Cambia el color de fondo al pasar el mouse sobre el enlace */
+    color: #fff; /* Cambia el color del texto al pasar el mouse sobre el enlace */
+  }

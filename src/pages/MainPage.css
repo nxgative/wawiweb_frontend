@@ -1,0 +1,19 @@
+.Create {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: -150px;
+    margin-top: -50px;
+}
+
+#first {
+    margin-bottom: -50px;
+}
+
+#second {
+    margin-bottom: 100px;
+}
+
+#third {
+    margin-bottom: 50px;
+}

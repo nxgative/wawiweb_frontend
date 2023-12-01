@@ -1,0 +1,11 @@
+.cute_div {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    margin-top: 80px;
+    
+}
+
+.img {
+    margin-top: 20px;
+}

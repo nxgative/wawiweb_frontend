@@ -1,0 +1,9 @@
+.imagen-con-texto {
+    text-align: 'center';
+    align-items: 'center';
+}
+
+.volver-link:hover {
+    background-color: #007bff; /* Cambia el color de fondo al pasar el mouse sobre el enlace */
+    color: #fff; /* Cambia el color del texto al pasar el mouse sobre el enlace */
+  }
