@@ -1,5 +1,6 @@
 import './MainPage.css'
 import { Link } from 'react-router-dom'
+import "../components/Button.css"
 
 export default function MainPage() {
     return (

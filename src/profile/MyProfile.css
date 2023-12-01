@@ -1,0 +1,75 @@
+.my-profile-container {
+    align-items: center;
+}
+
+
+.my-profile {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffcdff !important;
+    padding: 20px;
+    border-radius: 10px !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+.greyButton {
+    background-color: rgb(192, 187, 187) !important;
+}
+
+.my-profile h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.my-profile h3 {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.logout-container {
+    margin-top: 100px;
+    margin-bottom: 10px;
+}

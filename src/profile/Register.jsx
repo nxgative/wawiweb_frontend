@@ -73,10 +73,11 @@ const Register = () => {
                 setError(true);
                 setMsg(
                     <>
-                      Error al crear usuario. <br />
-                      Por favor, Inténtelo nuevamente.
+                        Error al crear usuario.
+                        <br />
+                        Por favor, Inténtelo nuevamente.
                     </>
-                  );
+                );
                 setMsg("Ha ocurrido un error al crear al usuario. Por favor, inténtelo nuevamente.");
                 console.log("Recordar, clave necesita ser de 4 caracteres, compuestos por al menos una letra un numero y un caracter especial");
                 console.error('Error:', error);
