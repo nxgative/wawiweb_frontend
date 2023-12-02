@@ -26,8 +26,6 @@ const Login = ({ username, password }) => {
 
     const handleSubmit = async (event) => {
         event.preventDefault();
-        console.log("entra aquí")
-        console.log('URL del backend:', `${import.meta.env.VITE_BACKEND_URL}/usuario/login`);
         axios.post(`${import.meta.env.VITE_BACKEND_URL}/usuario/login`, {
             nombre: username,
             password: password
