@@ -1,3 +1,3 @@
-const API_URL = "https://calendour2.onrender.com";
+const VITE_BACKEND_URL = "https://calendour2.onrender.com";
 
-export default API_URL;
+export default VITE_BACKEND_URL;
